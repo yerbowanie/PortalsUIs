@@ -8,8 +8,8 @@ if getgenv().library then
 end
 ]]
 
-local drawing = loadstring(game:HttpGet("https://gist.githubusercontent.com/notportal/043d5c6024b9307e6fa39e090df4f93e/raw/457097fcf289cff78073046e924ac19c928e9d66/extension.lua"))();
-local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/utility/main/Tween.lua"))() -- shhhh
+local drawing = loadstring(game:HttpGet("https://raw.githubusercontent.com/yerbowanie/PortalsUIs/main/Assets/Portal%20Drawing.lua"))();
+local tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/yerbowanie/PortalsUIs/main/Assets/Vozoid%20Tween"))() -- shhhh
 local services = setmetatable({}, {
     __index = function(_, k)
         k = (k == "InputService" and "UserInputService") or k
